@@ -1,0 +1,43 @@
+{
+  "name": "buildflow",
+  "version": "2.0.0",
+  "description": "BuildFlow — Professional browser-based architecture modeling platform",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "jspdf": "^2.5.2",
+    "konva": "^9.3.18",
+    "lucide-react": "^0.525.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-konva": "^18.2.10",
+    "react-router-dom": "^7.2.0",
+    "socket.io-client": "^4.8.1",
+    "uuid": "^11.1.0",
+    "yjs": "^13.6.22",
+    "zod": "^3.24.4",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.31",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.34.1",
+    "@typescript-eslint/parser": "^8.34.1",
+    "@vitejs/plugin-react": "^4.5.2",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.29.0",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
